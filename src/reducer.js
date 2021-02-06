@@ -19,7 +19,7 @@ function reducer(state = [], action) {
             return state.filter(ele => ele.id !== action.payload.id)
         
         default:
-            return state   // in caso di dispatch di azioni inesistenti, ritorna lo state attuale
+            return state   
     }
 }
 
