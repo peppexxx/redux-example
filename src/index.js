@@ -15,7 +15,7 @@ store.dispatch(addTodo('My Todo 1'))
 
 
 
-// Spediamo un azione 'TOGGLE_COMPLETED' al 'reducer'
+// Dispatch(action)
 store.dispatch(toggleCompleted(1))
 
 
